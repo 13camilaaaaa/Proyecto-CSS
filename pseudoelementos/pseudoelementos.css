@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlace {
+    display: block;
+    background: steelblue;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #fff;
+}
+
+.enlace:visited {
+    background: crimson;
+}
+
+.enlace:link {
+    background: #bb8510;
+    color: black;
+}
+
+/*para los que no se han visitado  */
+
+.enlace:hover {
+    padding: 40px 20px;
+    transition: 0.3s;
+}
+
+.enlace:active {
+    background: tomato;
+    color: #fff;
+}
+
+/*cuando el cursos esta oprimido  */
+
+/* _______________________________//// */
+
+.form {
+    width: 80%;
+    margin: 30px auto;
+    background: rgb(222, 235, 236);
+    box-shadow: 0 05px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    padding-left: 14px;
+}
+
+
+input[type="checkbox"] {
+    display: inline-block;
+}
+
+input:focus {
+    background: #569208;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+input[type="checkbox"]:checked+label {
+    color: blue;
+}
+
+/* ---------------------------------- */
+
+.event {
+    display: inline-block;
+    margin: 30px 0 0 20px;
+    background: crimson;
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active {
+    padding: 50px;
+    transition: 0.5s;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: slateblue;
+    margin: 20px 0 0 20px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+#objetivo:target{
+    border-radius: 50%;
+
+}
+/* ---------------------------/// */
+
+h3{ 
+    font-size: 2rem;
+   font-weight: normal; /*queda normal la letra */
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-top: 30px;
+
+}
+
+h3:not(.contacto):not(:hover){
+    color: steelblue;
+
+}  /* para indicar que no debe seleccionar */

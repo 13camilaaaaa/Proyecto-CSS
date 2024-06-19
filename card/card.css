@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .card {
+      box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3); 
+      transition: 0.3s;
+      width: 300px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+    
+    .container {
+      padding: 2px 16px;
+    }
+  
+    .titulo{
+      color: #a80402;
+      margin: 10px 0;
+    }
+  
+  
+  header{
+      text-align: center; 
+  }
+  body {
+      margin: auto;
+      width: 640px; 
+      padding: 50px;
+      font-family: 'Arial', sans-serif; 
+      color: #33475b;  
+      text-align: center;
+    }
+  
+  .btn{
+      border: none;
+      background-color: red;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 10px;
+      margin: 10px 0;    
+  }
+  
+  .success{
+      color: azure;
+  }
+  
+  .spidy{
+      box-shadow:  1px 1px 1px 1px rgba(32,32,32,0.3);;
+  }
+  
+  .goku{
+     
+      filter: drop-shadow(0 0 30px gold);
+  }
+  
+  
+  .spidy2{
+     
+      filter: drop-shadow(0 0 30px red);
+  }
