@@ -7,6 +7,44 @@
     background-color: salmon;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  header{
+    background-color: #461dc2;
+  }
+  
+  nav{
+    height: 90px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+  
+  }
+  
+  nav ul{
+     list-style: none;
+     display: inline-block;
+     padding:20px;
+     list-style-type: none;
+  }
+  
+  nav ul li{
+      float: left;
+      margin-top: 20px;
+      list-style-type: none;
+  }
+  
+  nav ul li a {
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 18px;
+  }
+  
+  nav ul li a:hover{
+    background-color: salmon;
+    border-radius: 15px;
+  }
+  
   .card{
     width: 300px;
     margin: 40px auto;

@@ -2,23 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
- /* header{
-   background-color: #461dc2;
- } */
-
- /* #logo{
-   margin: auto;
-   height: 250px;
-   width: 320px;
-   text-align: center;
- }
-
- #logo h1{
-    font-family: 'Pacifico', cursive;
-    font-size: 58px;
-  } */
+header{
+  background-color: #461dc2;
+}
 
 nav{
   height: 90px;
@@ -50,3 +38,29 @@ nav ul li a:hover{
   border-radius: 15px;
 }
 
+body {
+    background-color: purple;
+  }
+  @media (max-width: 900px) {
+    body {
+      background: black;
+    }
+    h1 {
+      color: white;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      background: white;
+    }
+    h1 {
+      color: black;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  
